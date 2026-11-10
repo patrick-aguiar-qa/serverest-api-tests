@@ -35,7 +35,7 @@ designed with:
 | **A**uthentication / Authorization | Missing, tampered and orphan tokens; non-admin access | `401` without token, `401` for a deleted user's token, `403` for non-admin |
 | **D**ata | Required fields, types, unknown fields, response types, data persisted | Price must be an integer; stock is reduced after a cart is created |
 | **E**rrors | Every documented error message and status | Duplicate email, duplicate product, product in a cart cannot be deleted |
-| **R**esponsiveness | Covered in a separate k6 performance project | — |
+| **R**esponsiveness | Covered in the [k6 performance project](https://github.com/patrick-aguiar-qa/serverest-k6-performance) | p(95)/p(99) thresholds under load, stress and spike |
 
 Each test creates its own data (unique emails and product names), so the suite is
 **repeatable** and can run in any order.
