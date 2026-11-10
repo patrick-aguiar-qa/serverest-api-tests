@@ -1,0 +1,30 @@
+{
+  "name": "serverest-api-tests",
+  "version": "1.0.0",
+  "description": "Automated REST API tests for ServeRest with Mocha, Supertest and Chai",
+  "scripts": {
+    "api": "serverest --nodoc --porta 3000",
+    "test": "mocha \"./test/**/*.test.js\" --timeout 10000",
+    "test:report": "mocha \"./test/**/*.test.js\" --timeout 10000 --reporter mochawesome",
+    "test:known-issues": "mocha \"./test-known-issues/**/*.test.js\" --timeout 10000"
+  },
+  "keywords": [
+    "qa",
+    "api-testing",
+    "mocha",
+    "supertest",
+    "chai",
+    "serverest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "dotenv": "^18.0.10",
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1",
+    "serverest": "^3.2.2",
+    "supertest": "^7.3.2"
+  }
+}
