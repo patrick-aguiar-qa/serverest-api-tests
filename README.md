@@ -102,4 +102,4 @@ In another terminal, run the tests:
 
 ## Author
 
-**Patrick Aguiar** — QA Engineer · [GitHub](https://github.com/patrick-aguiar-qa)
+**Patrick Aguiar** — QA Engineer · [LinkedIn](https://www.linkedin.com/in/patrick-aguiar-qa) · [GitHub](https://github.com/patrick-aguiar-qa)
