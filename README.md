@@ -9,6 +9,12 @@ e-commerce API (users, login, products and carts) built for testing practice.
 error handling and unsupported verbs, plus **3 bugs found and documented** in
 [BUG_REPORTS.md](BUG_REPORTS.md).
 
+Part of a small QA portfolio on the same product:
+**API tests** (this repo) ·
+[Web tests (Cypress)](https://github.com/patrick-aguiar-qa/serverest-web-cypress) ·
+[Playwright + TypeScript](https://github.com/patrick-aguiar-qa/serverest-playwright-ts) ·
+[Performance tests (k6)](https://github.com/patrick-aguiar-qa/serverest-k6-performance).
+
 ## Stack
 
 | Tool | Purpose |
